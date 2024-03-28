@@ -1,0 +1,16 @@
+REACT_APP_API_URL = "https://anniesadminapi.redefineapp.io/"
+#REACT_APP_API_URL="https://beta-anniesadminapi.redefineapp.io/"
+REACT_Front_APP_API_URL = "https://anniesfrontapi.redefineapp.io/"
+REACT_APP_ENV = "dev"
+ 
+REACT_APP_zoom_meetingNumber = "88518778770"
+REACT_APP_zoom_role = "1"
+REACT_APP_zoom_sdkKey = "8IamGxvVQCap0FjKT44Ksw"
+REACT_APP_zoom_sdkSecret = "gHYa4quzJkc7F53KgFl2KGupjHVaEj2H"
+REACT_APP_zoom_userName = "Purevea Skincare Professionals"
+REACT_APP_zoom_userEmail = "susanne@skindexlabs.com"
+REACT_APP_zoom_passWord = ""
+ 
+REACT_APP_ReCAPTCHA_sitekey = "6LesILIgAAAAAD6ss4sol_J3qA7N2tBYPtJXA1oa"
+ 
+REACT_APP_crypto_o_secretPass = "XkhZG4fW2t2W"

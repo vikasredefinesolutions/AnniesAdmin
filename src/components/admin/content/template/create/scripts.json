@@ -1,0 +1,10 @@
+[
+    {
+        "name": "carousel",
+        "script" :  "const carousel=document.querySelectorAll('.carousel');carousel.forEach(n=>{const t=n.querySelector('.carousel-slider');let r,e=n.querySelector('.prev'),o=n.querySelector('.next'),u=t.querySelectorAll('.carousel-slide'),i=0,f=Object.keys(u).length;e&&o&&(e.addEventListener('click',()=>{r=i,i=(i-1+f)%f,t.setAttribute('style','transform: translateX(-1920px)'),t.insertBefore(u[i],t.firstChild),setTimeout(()=>{t.setAttribute('style','transform: translateX(-1920px)'),t.style.transform='',t.classList.add('sliding-transition')},150),setTimeout(()=>{t.classList.remove('sliding-transition')},490)}),o.addEventListener('click',()=>{t.classList.add('sliding-transition'),r=i,i=(i+1)%f,t.style.transform='translateX(-1920px)',setTimeout(()=>{t.appendChild(u[r]),t.classList.remove('sliding-transition'),t.style.transform=''},500)}))});"
+    },
+    {
+        "name": "accordion",
+        "script": "const iconArr={keyboard_arrow_up:'keyboard_arrow_down',keyboard_arrow_down:'keyboard_arrow_up',remove_circle_outline:'add_circle_outline',add_circle_outline:'remove_circle_outline',add:'remove',remove:'add'},acc=document.querySelectorAll('.accordion-box');console.log(acc),acc.forEach((e,r)=>{e.querySelectorAll('li').forEach((e,r)=>{e.addEventListener('click',()=>{if(e.querySelector('.pointer-class')){let r=e.querySelector('.pointer-class');r.innerHTML=iconArr[r.innerHTML],e.querySelector('.ac-description').classList.contains('hidden')?e.querySelector('.ac-description').classList.remove('hidden'):e.querySelector('.ac-description').classList.add('hidden')}})})});"
+    }
+]

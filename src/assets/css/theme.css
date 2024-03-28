@@ -1,0 +1,186 @@
+.custbtn-primary {
+	color : var(--tw-theme-btn-primary-text-color);
+	background : var(--tw-theme-btn-primary-color);
+	border-width : var(--tw-theme-btn-primary-border-width);
+	border-radius : var(--tw-theme-btn-primary-border-radius);
+	font-size: 20px;
+}
+.custbtn-primary:hover {
+	color : var(--tw-theme-btn-primary-hover-text-color);
+	background : var(--tw-theme-btn-primary-hover-color);
+}
+.custbtn-secondary {
+	color : var(--tw-theme-btn-secondary-text-color);
+	background : var(--tw-theme-btn-secondary-color);
+	border-width : var(--tw-theme-btn-secondary-border-width);
+	border-radius : var(--tw-theme-btn-secondary-border-radius);
+	font-size: 20px;
+}
+.custbtn-secondary:hover {
+	color : var(--tw-theme-btn-secondary-hover-text-color);
+	background : var(--tw-theme-btn-secondary-hover-color);
+}
+.custbtn-tertiary {
+	color : var(--tw-theme-btn-tertiary-text-color);
+	background : var(--tw-theme-btn-tertiary-color);
+	border-width : var(--tw-theme-btn-tertiary-border-width);
+	border-radius : var(--tw-theme-btn-tertiary-border-radius);
+	font-size: 20px;
+}
+.custbtn-tertiary:hover {
+	color : var(--tw-theme-btn-tertiary-hover-text-color);
+	background : var(--tw-theme-btn-tertiary-hover-color);
+}
+.custbtn-quaternary {
+	color : var(--tw-theme-btn-quaternary-text-color);
+	background : var(--tw-theme-btn-quaternary-color);
+	border-width : var(--tw-theme-btn-quaternary-border-width);
+	border-radius : var(--tw-theme-btn-quaternary-border-radius);
+	font-size: 20px;
+}
+.custbtn-quaternary:hover {
+	color : var(--tw-theme-btn-quaternary-hover-text-color);
+	background : var(--tw-theme-btn-quaternary-hover-color);
+}
+.custbtn-default {
+	color : var(--tw-theme-btn-default-text-color);
+	background : var(--tw-theme-btn-default-color);
+	border-width : var(--tw-theme-btn-default-border-width);
+	border-radius : var(--tw-theme-btn-default-border-radius);
+	font-size: 20px;
+}
+.custbtn-default:hover {
+	color : var(--tw-theme-btn-default-hover-text-color);
+	background : var(--tw-theme-btn-default-hover-color);
+}
+
+.title-font {
+	font-size: var(--tw-theme-title-text-font-size);
+	font-family: var(--tw-theme-title-text-font-family);
+	line-height: var(--tw-theme-title-text-line-height);
+	font-weight: var(--tw-theme-title-text-font-weight);
+	letter-spacing: var(--tw-theme-title-text-letter-spacing);
+	color: var(--tw-theme-title-text-font-color);
+}
+
+.large-font {
+	font-size: var(--tw-theme-large-text-font-size);
+	font-family: var(--tw-theme-large-text-font-family);
+	line-height: var(--tw-theme-large-text-line-height);
+	font-weight: var(--tw-theme-large-text-font-weight);
+	letter-spacing: var(--tw-theme-large-text-letter-spacing);
+	color: var(--tw-theme-large-text-font-color);
+}
+
+.medium-font {
+	font-size: var(--tw-theme-medium-text-font-size);
+	font-family: var(--tw-theme-medium-text-font-family);
+	line-height: var(--tw-theme-medium-text-line-height);
+	font-weight: var(--tw-theme-medium-text-font-weight);
+	letter-spacing: var(--tw-theme-medium-text-letter-spacing);
+	color: var(--tw-theme-medium-text-font-color);
+}
+
+.normal-font {
+	font-size: var(--tw-theme-normal-text-font-size);
+	font-family: var(--tw-theme-normal-text-font-family);
+	line-height: var(--tw-theme-normal-text-line-height);
+	font-weight: var(--tw-theme-normal-text-font-weight);
+	letter-spacing: var(--tw-theme-normal-text-letter-spacing);
+	color: var(--tw-theme-normal-text-font-color);
+}
+
+.default-font {
+	font-size: var(--tw-theme-default-text-font-size);
+	font-family: var(--tw-theme-default-text-font-family);
+	line-height: var(--tw-theme-default-text-line-height);
+	font-weight: var(--tw-theme-default-text-font-weight);
+	letter-spacing: var(--tw-theme-default-text-letter-spacing);
+	color: var(--tw-theme-default-text-font-color);
+}
+
+.extra-small-font {
+	font-size: var(--tw-theme-extra-small-text-font-size);
+	font-family: var(--tw-theme-extra-small-text-font-family);
+	line-height: var(--tw-theme-extra-small-text-line-height);
+	font-weight: var(--tw-theme-extra-small-text-font-weight);
+	letter-spacing: var(--tw-theme-extra-small-text-letter-spacing);
+	color: var(--tw-theme-extra-small-text-font-color);
+}
+
+.sub-font {
+	font-size: var(--tw-theme-sub-text-font-size);
+	font-family: var(--tw-theme-sub-text-font-family);
+	line-height: var(--tw-theme-sub-text-line-height);
+	font-weight: var(--tw-theme-sub-text-font-weight);
+	letter-spacing: var(--tw-theme-sub-text-letter-spacing);
+	color: var(--tw-theme-sub-text-font-color);
+}
+
+.small-font {
+	font-size: var(--tw-theme-small-text-font-size);
+	font-family: var(--tw-theme-small-text-font-family);
+	line-height: var(--tw-theme-small-text-line-height);
+	font-weight: var(--tw-theme-small-text-font-weight);
+	letter-spacing: var(--tw-theme-small-text-letter-spacing);
+	color: var(--tw-theme-small-text-font-color);
+}
+
+.default-link {
+	color: var(--tw-theme-link-default-color);
+	text-decoration: var(--tw-theme-link-default-text-decoration);
+}
+.default-link:hover {
+	color: var(--tw-theme-link-default-hover-color);
+}
+
+.primary-link {
+	color: var(--tw-theme-link-primary-color);
+	text-decoration: var(--tw-theme-link-primary-text-decoration);
+}
+.primary-link:hover {
+	color: var(--tw-theme-link-primary-hover-color);
+}
+
+.secondary-link {
+	color: var(--tw-theme-link-secondary-color);
+	text-decoration: var(--tw-theme-link-secondary-text-decoration);
+}
+.secondary-link:hover {
+	color: var(--tw-theme-link-secondary-hover-color);
+}
+
+.tertiary-link {
+	color: var(--tw-theme-link-tertiary-color);
+	text-decoration: var(--tw-theme-link-tertiary-text-decoration);
+}
+.tertiary-link:hover {
+	color: var(--tw-theme-link-tertiary-hover-color);
+}
+
+.quaternary-link {
+	color: var(--tw-theme-link-quaternary-color);
+	text-decoration: var(--tw-theme-link-quaternary-text-decoration);
+}
+.quaternary-link:hover {
+	color: var(--tw-theme-link-quaternary-hover-color);
+}
+
+.body-font {
+	font-size: var(--tw-theme-body-font-size);
+	font-family: var(--tw-theme-body-font);
+	line-height: var(--tw-theme-body-font-line-height);
+	font-weight: var(--tw-theme-body-font-weight);
+	letter-spacing: var(--tw-theme-body-font-letter-spacing);
+	color: var(--tw-theme-font-color);
+	
+}
+
+.custbtn-transparent {
+	background : none;
+	border-width : 0;
+	border-radius : 0;
+}
+.custbtn-transparent:hover {
+	background : none;
+}
